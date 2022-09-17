@@ -1,8 +1,0 @@
-The DFT of a real signal is conjugate symmetric. For example, 
-if your DFT result at, say, 2Hz was 1+j5, then your DFT result at -2Hz would be 1−j5. This is conjugate symmetry.
-
-Of course, when you take the absolute magnitude, 
-the result in both cases is the same, which is why you see this mirror image.
-
-Going deeper, the reason for why a real signal can be decomposed into symmetric complex conjugate parts, is because a real signal oscillates on the real axis, 
-and this can be thought of as the resultant of two phasors rotating around the center of the complex plane, in opposite directions.
