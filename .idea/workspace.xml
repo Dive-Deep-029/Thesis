@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a38d7769-ed89-4bca-95d0-ef44dc5eb1be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../acoustics/2020-12-09_FAQ Thesis.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/AE test vallance.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Acoustic Signal analysis.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/FFT___Wavelet/Wavelet Transform of Acoustic Emission Signals.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/FFT___Wavelet/discrete wavelet trsform.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/FFT___Wavelet/links_fft_WT.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Feature_param/1-s2.0-S2090447919300103-main.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Feature_param/CXM-ADDENDUM-RMS-CALCULATION-FROM-SPECTRUM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Feature_param/Feature Extraction and Pattern Recognition in Acoustic Emission Monitoring of Robot Assisted Polishing.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Feature_param/ae param.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Feature_param/euspen_2018_Venice_Proceedings_p._385_386_1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Feature_param/j.ijmachtools.2005.04.001.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Feature_param/rms cal.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Overview.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Process_parameters_polishing/1.5132116.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Process_parameters_polishing/Effects_of_Process_Parameters_on_Material_Removal_.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Process_parameters_polishing/Full Aperture Optical Polishing Process.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Process_parameters_polishing/Uniform_Polishing_Method_of_Spherical_Lens_Based_o.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Process_parameters_polishing/cook1990.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Process_parameters_polishing/j.jmatprotec.2009.08.014.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/Process_parameters_polishing/surface roughness.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/TRANSIENT RECORDER.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/polishing process.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acoustics/pyvallenae-readthedocs-io-en-0.3.0.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Dw4l5zdekALlswhY0sktnrV45h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Thesis/Python",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a38d7769-ed89-4bca-95d0-ef44dc5eb1be" name="Changes" comment="" />
+      <created>1661596960736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661596960736</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
