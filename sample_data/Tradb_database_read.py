@@ -14,7 +14,7 @@ import numpy as np
 
 # HERE = os.path.dirname(__file__) if "__file__" in locals() else os.getcwd()
 HERE = "D:\Thesis\Python"
-TRADB = os.path.join(HERE, "sample_plain.tradb")  # uncompressed
+TRADB = os.path.join(HERE, "sample.tradb")  # uncompressed
 TRAI = 4  # just an example, no magic here
 
 
