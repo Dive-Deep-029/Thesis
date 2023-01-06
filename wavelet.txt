@@ -1,0 +1,31 @@
+#Wavelet
+    """
+    def frequency2scale(wavelet, freq, precision=8):
+        Convert from to normalized frequency to CWT "scale".
+
+        Parameters
+        ----------
+        wavelet : Wavelet instance or str
+            Wavelet to integrate.  If a string, should be the name of a wavelet.
+        freq : scalar
+            Frequency, normalized so that the sampling frequency corresponds to a
+            value of 1.0.
+        precision : int, optional
+            Precision that will be used for wavelet function approximation computed
+            with ``wavelet.wavefun(level=precision)``.  Default is 8.
+
+        Returns
+        -------
+        scale : scalar
+
+        
+        return central_frequency(wavelet, precision=precision) / freq  """
+    """"
+    frequencies = freq / fs  # normalize
+    scale = pywt.frequency2scale('cmor1.5-1', frequencies)
+    coef, freqs = pywt.cwt(y, scale, 'cmor1.5-1')
+    dt = 1/fs
+    freqs = pywt.scale2frequency('cmor1.5-1', scale) / dt
+    print("djjd", len(coef),len(freqs))
+    #plt.plot(freqs,np.abs(coef))
+    """

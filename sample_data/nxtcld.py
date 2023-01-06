@@ -1,4 +1,4 @@
-# pyncclient
+# pyncclient  https://github.com/pragmaticindustries/pyncclient
 
 import nextcloud_client
 import os

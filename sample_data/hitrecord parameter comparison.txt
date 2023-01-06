@@ -1,0 +1,17 @@
+set_id |   time |   channel |   param_id |   amplitude |   duration |           energy |         rms |   rise_time |   counts |   trai 
+
+  FROM database                                  From python output
+
+ type_='H',                  not eqaul                    -set_id |
+ channel=2,                                    - channel |
+ time=14.3534488,                                  -time |        
+ amplitude=0.0077796875,                      -amplitude |
+ rise_time=3.9e-06,                           -rise_time |
+ duration=0.0003476,                          - duration | 
+ counts=32,                                      -counts |
+ energy=87439.86652832032,                      - energy |
+ trai=1,                                           -trai 
+ flags=32768,
+ samples=1096,
+ data=array([3.125000e-06, 6.250000e-06, 1.562500e-06, ..., 1.875000e-04,
+       2.718750e-04, 2.953125e-04], dtype=float32
