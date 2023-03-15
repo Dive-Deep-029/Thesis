@@ -1,5 +1,5 @@
 """
-Read and plot transient data
+Read and plot Unfiltered transient data, FFT
 ============================
 """
 
@@ -37,7 +37,7 @@ def HFFT(x,t):
     X_mag = 2 * X_mag[:pos]  # step2: double the positive freq (negative freq we avoid)
     X_mag[0] = X_mag[0]/2   #0Hz and nyquist freq will not have negative side so no need to multiply by 2
 
-    fs = 2000000 #sampling rate/freq
+    fs = 2e6 #sampling rate/freq
     ts = 1/fs    #sampling period
     freq0 = (fftfreq(N, ts))/1000  #KHz
     freq = freq0[:pos]

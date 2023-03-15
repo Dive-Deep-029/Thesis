@@ -1,5 +1,7 @@
 """
-Read and plot transient data
+Read and plot filtered transient data
+
+Filters - Bandpass filter, Median filter, Wavelet filter
 ============================
 """
 
@@ -22,7 +24,7 @@ TRAI = 67   #Transient record index  or window number = 10000 µs
 
 
 fs = 2e6   # sampling frequency
-N_tap = 121
+N_tap = 121   #the number of filter coefficients to be created.
 f1, f2 = 35e3, 40e3     # bandpass filter frequency range
 
 def main():
@@ -68,20 +70,36 @@ def main():
 
 #Bandpass filter
 def fir2(f1, f2, fs, N_tap):
+    # The 'scipy.signal.firwin' function is used to design a finite impulse response (FIR) filter with the specified parameters.
+    # The function returns an array containing the filter coefficients.
+    # The filter coefficients are assigned to the variable 'taps'.
     taps = scipy.signal.firwin(N_tap, [f1, f2], pass_zero=False, fs = fs)
     return taps
 
 #Median filter
 def median(x3):
+    # The 'scipy.signal.medfilt' function is used to apply median filtering to a signal 'x3'.
+    # Median filtering is a non-linear signal processing technique that replaces each sample with the median value of its neighboring samples.
+    # The 'kernel_size' parameter specifies the size of the window used for median filtering.
+    # If 'kernel_size' is not specified or set to None, then it defaults to 3 (i.e., a 3-point median filter is applied).
+    # The filtered signal is assigned to the variable 'x4'.
     x4 = scipy.signal.medfilt(x3, kernel_size=None)
     return x4
 
 #Wavelet filter
 def WT(x1):
+    # The code defines a variable 'wave_type' that specifies the type of wavelet to be used for the decomposition.
     wave_type = "db16"
+
+    # The variable 'level' specifies the number of decomposition levels to be used.
     level = 3
+
+    # The 'pywt.wavedec' function is used to decompose a signal 'x1' using the specified wavelet and number of levels.
+    # The function returns a tuple of arrays containing the approximation coefficients (cA) and detail coefficients (cD) at each level.
+    # The tuple is assigned to the variable 'coeffs'.
     coeffs = pywt.wavedec(x1, wave_type, level=level)
 
+    # The detail coefficients (cD) and approximation coefficients (cA) of each level are stored in separate variables for future use.
     cA3, cD3, cD2, cD1 = coeffs
 
     # Calculate standard deviations of each coefficient
